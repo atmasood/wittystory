@@ -1,0 +1,89 @@
+.background_div{
+	width:100%;
+	background-image: url('../images/background.png');
+    background-size: cover;
+    transform: scaleY(.7);
+    background-position: 48% 100%;
+}
+
+.hand_div{
+    background-image: url('../images/hand.png');
+    background-size: cover;
+    height:11em;
+    position:relative;
+    top:5em;
+}
+
+.heading_text{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.4em;
+    position: relative;
+}
+
+.heading_text::after {
+	display: inline-block;
+    content: "";
+    border-top: 2px solid black;
+    width: 3rem;
+    right:0px; 
+    position: absolute;
+    bottom: 0px;
+
+
+}
+
+.input_top{
+
+	font-weight: bold;
+ 	font-size: .85em;
+    transform: scaleY(1.4);
+       margin-top: 9em !important;
+}
+
+.input_field{
+	    border: 1px solid #fff !important;
+    background: #fff !important;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 28em !important;
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+    position: relative !important;
+}
+
+.btn-flat{
+	    border: solid 1px #272526 !important;
+    background: #272526 !important;
+    color: #fff !important;
+    position: absolute !important;
+    top:3px;
+    height:32px !important;
+    right:3px;
+    text-transform:none;
+  /*  font-size:0.7em !important;*/
+    padding:0 .4em !important;
+   
+}
+
+@media screen and (max-width: 380px) and (min-width: 360px) {
+.input_field{
+
+     width:24em !important;
+    }
+}
+
+@media screen and (max-width: 380px) and (min-width: 360px) {
+.input_top{
+
+     font-size: .75em;
+
+
+}
+}    

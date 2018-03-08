@@ -1,0 +1,122 @@
+
+
+.background_div{
+	width:100%;
+	background-image: url('../images/background.png');
+    background-size: cover;
+}
+
+.hand_div{
+	background-image: url(../images/hand.png);
+    background-size: cover;
+    height: 32em;
+    position: relative;
+    top: 0em;
+}
+
+.heading_text{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    font-size: 4em;
+    position: relative;
+    line-height: 1.2;
+    margin-top: 1em;
+    color:#292526;
+}
+
+.heading_text::after {
+    display: block;
+    content: "";
+    border-top: 3px solid #272526;
+    width: 10rem;
+    position: absolute;
+    bottom: 0em;
+    right: 0em;
+
+}
+
+.input_top{
+
+	font-weight: bold;
+    font-size: 2em;
+    margin-left: 3em;
+    margin-top: 3em;
+}
+
+.input_field{
+	    border: 1px solid #fff !important;
+    background: #fff !important;
+    border-radius: 0;
+    outline: none;
+    height: 6rem;
+    width: 55em !important;
+    font-size: 1rem;
+    margin: 0 0 20px 80px;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+    position: relative !important;
+    border-radius: 3px;
+}
+
+.input_field1{
+    border: 1px solid #fff !important;
+    background: #fff !important;
+    border-radius: 0;
+    outline: none;
+    height: 1em;
+    width: 20em !important;
+    font-size: 2em;
+    margin: 0 0 20px 0px;
+    padding: .9em;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+    position: relative !important;
+}
+
+.btn-flat{
+	border: solid 1px #272526 !important;
+    background: #272526 !important;
+    color: #fff !important;
+    position: absolute !important;
+    top: 3px;
+    height: 1.8em !important;
+    right: 3px;
+    text-transform: none;
+    font-size: 3em!important;
+    padding: 5px !important;
+    border-radius: 3px;
+   
+}
+
+@media screen and (max-width: 1151px) and (min-width: 651px) {
+  .heading_text{
+  	font-size: 3em !important;
+  
+}
+}
+
+@media screen and (max-width: 1151px) and (min-width: 651px) {
+  .input_field{
+  width:44em !important;
+  
+	}
+}
+
+@media screen and (max-width: 1151px) and (min-width: 651px) {
+  .input_top{
+  font-size: 1.55em !important;
+  margin-left: 4.5em !important;
+  
+	}
+}
+
+@media screen and (max-width: 1151px) and (min-width: 651px) {
+.hand_div{
+
+		height:28em;
+	}
+}
